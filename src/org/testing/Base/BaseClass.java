@@ -52,7 +52,7 @@ public Properties pr;
 	catch(Exception e)
 	
 			{
-				Logs.takeLogs("BaseClass", "Repository Load fail");
+				Logs.takeLogs("BaseClass", "Repository Load fail"); 
 				
 			}
 		   	
