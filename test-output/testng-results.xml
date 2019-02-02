@@ -2,21 +2,25 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20137" started-at="2019-02-01T12:08:17Z" finished-at="2019-02-01T12:08:37Z">
+  <suite name="Suite1" duration-ms="103334" started-at="2019-02-02T09:19:44Z" finished-at="2019-02-02T09:21:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20137" started-at="2019-02-01T12:08:17Z" finished-at="2019-02-01T12:08:37Z">
+    <test name="Command line test 4cc0d106-29d2-4113-a536-05893867be8b" duration-ms="103334" started-at="2019-02-02T09:19:44Z" finished-at="2019-02-02T09:21:28Z">
       <class name="org.testing.TestScripts.TC1">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:org.testing.TestScripts.TC1@1efef64]" name="openBrowser" is-config="true" duration-ms="20088" started-at="2019-02-01T12:08:17Z" finished-at="2019-02-01T12:08:37Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:org.testing.TestScripts.TC1@6e6d5e]" name="openBrowser" is-config="true" duration-ms="73144" started-at="2019-02-02T09:19:44Z" finished-at="2019-02-02T09:20:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="FAIL" signature="tranding()[pri:0, instance:org.testing.TestScripts.TC1@1efef64]" name="tranding" duration-ms="5" started-at="2019-02-01T12:08:37Z" finished-at="2019-02-01T12:08:37Z">
-          <exception class="java.lang.NullPointerException">
+        <test-method status="FAIL" signature="tranding()[pri:0, instance:org.testing.TestScripts.TC1@6e6d5e]" name="tranding" duration-ms="29997" started-at="2019-02-02T09:20:58Z" finished-at="2019-02-02T09:21:28Z">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index: 1, Size: 0]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at org.testing.pages.Login.signin(Login.java:24)
-at org.testing.TestScripts.TC1.tranding(TC1.java:21)
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
+at java.util.ArrayList.rangeCheck(Unknown Source)
+at java.util.ArrayList.get(Unknown Source)
+at org.testing.TestScripts.TC1.tranding(TC1.java:25)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -39,16 +43,14 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testing.Runner.Runner.main(Runner.java:75)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tranding -->
       </class> <!-- org.testing.TestScripts.TC1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Command line test 4cc0d106-29d2-4113-a536-05893867be8b -->
+  </suite> <!-- Suite1 -->
 </testng-results>

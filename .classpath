@@ -36,5 +36,6 @@
 	<classpathentry kind="lib" path="D:/poi-bin-3.17-20170915/poi-3.17/lib/commons-logging-1.2.jar"/>
 	<classpathentry kind="lib" path="D:/poi-bin-3.17-20170915/poi-3.17/lib/junit-4.12.jar"/>
 	<classpathentry kind="lib" path="D:/poi-bin-3.17-20170915/poi-3.17/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vishal/Downloads/jxl-2.6.12.jar/jxl-2.6.12.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
